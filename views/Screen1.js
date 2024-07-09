@@ -5,7 +5,7 @@ import { inputtextwallpaper } from '../atoms/wallpaperinputtext'
 import Navbar from './Navbar'
 
 const Screen1 = ({ navigation }) => {
-    const access_key = 'DfrgDYXv3xSbxgtlvRpVfKuXNhW3YMctXXALTDErVIw'
+    const access_key = 'MZvNeNKxCpKeUVJF4n29fXWFhZN1ZA9nxOoID3zAL5s'
     const [searchvalue, setSearchValue] = useRecoilState(inputtextwallpaper)
     const [imagecollection, setImageCollection] = useState([])
     // console.log(searchvalue)
@@ -16,7 +16,6 @@ const Screen1 = ({ navigation }) => {
             setImageCollection(jsondata)
             // console.log(jsondata)
         }
-
         getimagecollection()
     }, [searchvalue])
 

@@ -17,12 +17,12 @@ export default function App() {
           <Stack.Screen name='S1' component={Screen1}
             options={{
               headerStyle: {
-                backgroundColor: '#42f5b0',
+                backgroundColor: '#00c8d691',
               },
               headerTintColor: '#fff',
               headerTitleStyle: {
                 fontWeight: 'bold',
-              }, title: 'Home',
+              }, title: 'Pixel',
               headerTitleAlign: 'center'
             }}
 
